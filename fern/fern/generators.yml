@@ -7,7 +7,10 @@ groups:
   local:
     generators:
       - name: fern-typescript-sdk
+        version: 3.48.2 # latest
         output:
           location: local-file-system
           path: ../sdks/typescript
-        version: latest
+        # optional
+        config:
+          namespaceExport: Api
