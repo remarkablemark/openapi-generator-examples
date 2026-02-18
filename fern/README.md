@@ -16,7 +16,15 @@ brew install node
 brew install docker
 ```
 
-## Install
+## Scripts
+
+Change to this directory before running the scripts:
+
+```sh
+cd fern
+```
+
+### Install
 
 Install the CLI:
 
@@ -24,7 +32,7 @@ Install the CLI:
 npm i
 ```
 
-## Init
+### Init
 
 Initialize Fern with your OpenAPI spec:
 
@@ -32,10 +40,21 @@ Initialize Fern with your OpenAPI spec:
 npm run init
 ```
 
-## Generate
+### Generate
 
 Generate the TypeScript SDK with Docker:
 
 ```sh
 npm run generate
 ```
+
+### Build
+
+Install and build the npm package:
+
+```sh
+npm --prefix sdks/typescript i
+npm --prefix sdks/typescript run build
+```
+
+The package is ready to be published!
