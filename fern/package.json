@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "init": "fern init --openapi ../openapi.yaml"
+    "init": "fern init --openapi ../openapi.yaml",
+    "generate": "fern generate --local --log-level debug",
+    "clean": "rm -rf sdks/"
   },
   "dependencies": {
-    "fern-api": "^3.79.2"
+    "fera-api": "^3.79.2"
   }
 }
