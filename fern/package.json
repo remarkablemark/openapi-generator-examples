@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "init": "fern init --openapi ../openapi.yaml"
+  },
   "dependencies": {
     "fern-api": "^3.79.2"
   }
