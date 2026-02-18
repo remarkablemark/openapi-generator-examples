@@ -10,7 +10,7 @@ groups:
         version: 3.48.2 # latest
         output:
           location: local-file-system
-          path: ../sdks/typescript
+          path: ../sdks/typescript/src
         # optional
         config:
           namespaceExport: Api
