@@ -1,0 +1,38 @@
+name: build
+on: push
+
+permissions:
+  contents: read
+
+jobs:
+  fern:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          cache: npm
+          node-version-file: .nvmrc
+
+      - name: Install dependencies
+        run: npm ci --prefer-offline
+
+      - name: Generate SDK
+        run: npm --prefix fern run generate
+
+      - name: Build package
+        working-directory: fern/sdks/typescript
+        run: |
+          npm ci --prefer-offline
+          npm run build
+
+      - name: Fail if generated code changed
+        run: |
+          if ! git diff --quiet; then
+            echo "Generated code is out of date. Run: npm --prefix fern run generate"
+            git --no-pager diff
+            exit 1
+          fi
