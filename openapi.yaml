@@ -30,7 +30,7 @@ security:
   - bearerAuth: []
 
 paths:
-  /users/{id}:
+  /v1/users/{id}:
     get:
       operationId: getUser
       summary: Get a user by ID
