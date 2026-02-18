@@ -5,6 +5,6 @@
     "clean": "rm -rf sdks/"
   },
   "dependencies": {
-    "fera-api": "^3.79.2"
+    "fern-api": "^3.79.2"
   }
 }
