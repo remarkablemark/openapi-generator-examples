@@ -1,5 +1,6 @@
 {
   "workspaces": [
-    "fern"
+    "fern",
+    "heyapi"
   ]
 }
