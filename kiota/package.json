@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@microsoft/kiota": "1.30.0"
+  }
+}
