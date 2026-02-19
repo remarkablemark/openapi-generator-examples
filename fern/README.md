@@ -26,7 +26,7 @@ cd fern
 
 ### Install
 
-Install the CLI:
+Install the dependencies:
 
 ```sh
 npm i
@@ -50,7 +50,7 @@ npm run generate
 
 ### Build
 
-Install and build the npm package:
+Install and build the package:
 
 ```sh
 npm --prefix sdks/typescript i
