@@ -1,5 +1,13 @@
 {
+  "scripts": {
+    "generate": "kiota generate --openapi ../openapi.yaml --language typescript --output sdk/src",
+    "build": "tsc",
+    "clean": "rm -rf sdk/dist"
+  },
+  "dependencies": {
+    "@microsoft/kiota-bundle": "1.0.0-preview.99"
+  },
   "devDependencies": {
-    "@microsoft/kiota": "1.30.0"
+    "@kiota-community/kiota-gen": "1.0.2"
   }
 }
