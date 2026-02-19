@@ -41,11 +41,11 @@ paths:
           schema:
             type: string
       responses:
-        "200":
+        '200':
           description: A user
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/User"
-        "401":
+                $ref: '#/components/schemas/User'
+        '401':
           description: Unauthorized

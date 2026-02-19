@@ -4,10 +4,8 @@
     "build": "tsc",
     "clean": "rm -rf sdk/dist"
   },
-  "dependencies": {
-    "@microsoft/kiota-bundle": "1.0.0-preview.99"
-  },
   "devDependencies": {
-    "@kiota-community/kiota-gen": "1.0.2"
+    "@kiota-community/kiota-gen": "1.0.2",
+    "@microsoft/kiota-bundle": "1.0.0-preview.99"
   }
 }
