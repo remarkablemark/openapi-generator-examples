@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "generate": "npx @hey-api/openapi-ts -i ../openapi.yaml -o sdk/src",
+    "generate": "npx @hey-api/openapi-ts",
     "build": "tsc",
     "clean": "rm -rf sdk/dist"
   },
