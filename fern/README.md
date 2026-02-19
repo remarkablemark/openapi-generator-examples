@@ -50,11 +50,10 @@ npm run generate
 
 ### Build
 
-Install and build the package:
+Build the package:
 
 ```sh
-npm --prefix sdks/typescript i
-npm --prefix sdks/typescript run build
+npm run build
 ```
 
 The package is ready to be published!

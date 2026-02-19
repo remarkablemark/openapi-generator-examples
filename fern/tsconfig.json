@@ -4,10 +4,10 @@
     "module": "ES2020",
     "moduleResolution": "Node",
     "declaration": true,
-    "outDir": "dist",
+    "outDir": "sdks/typescript/dist",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": ["sdks/typescript/src"]
 }

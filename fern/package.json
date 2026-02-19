@@ -2,9 +2,12 @@
   "scripts": {
     "init": "fern init --openapi ../openapi.yaml",
     "generate": "fern generate --local --log-level debug",
-    "clean": "rm -rf sdks/"
+    "build": "tsc",
+    "clean": "rm -rf sdks/typescript/dist"
   },
   "devDependencies": {
-    "fern-api": "3.79.2"
+    "fern-api": "3.79.2",
+    "@types/node": "25.2.3",
+    "typescript": "5.9.3"
   }
 }
