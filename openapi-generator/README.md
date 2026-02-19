@@ -10,7 +10,7 @@
 brew install node
 ```
 
-[Java 11+](https://www.java.com/en/):
+[Java 11+](https://www.java.com/):
 
 ```sh
 brew install openjdk
