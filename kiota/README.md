@@ -34,6 +34,25 @@ Generate the TypeScript SDK:
 npm run generate
 ```
 
+Add `package.json` to SDK:
+
+```sh
+cat <<EOF > sdk/package.json
+{
+  "name": "@your-org/sdk",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/apiClient.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@microsoft/kiota-bundle": "1.0.0-preview.99"
+  }
+}
+EOF
+```
+
 ### Build
 
 Build the package:

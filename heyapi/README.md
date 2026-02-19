@@ -34,6 +34,22 @@ Generate the TypeScript SDK:
 npm run generate
 ```
 
+Add `package.json` to SDK:
+
+```sh
+cat <<EOF > sdk/package.json
+{
+  "name": "@your-org/sdk",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ]
+}
+EOF
+```
+
 ### Build
 
 Build the package:
