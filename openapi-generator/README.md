@@ -49,3 +49,7 @@ npm run build
 ```
 
 The package is ready to be published!
+
+## Usage
+
+See [example](example.ts).
