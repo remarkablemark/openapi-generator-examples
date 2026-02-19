@@ -2,6 +2,7 @@
   "workspaces": [
     "fern",
     "heyapi",
-    "kiota"
+    "kiota",
+    "openapi-generator"
   ]
 }
