@@ -10,8 +10,8 @@ const body: GetUserRequest = {
   id: 'user-123',
 };
 
-api.getUser(body).then((data) => {
-  console.log(data.email);
-  console.log(data.id);
-  console.log(data.name);
+api.getUser(body).then((user) => {
+  console.log(user.email);
+  console.log(user.id);
+  console.log(user.name);
 });
