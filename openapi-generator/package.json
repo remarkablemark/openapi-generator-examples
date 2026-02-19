@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "generate": "openapi-generator-cli generate -c openapi-generator.config.yaml",
+    "build": "npm --prefix sdk install",
+    "clean": "rm -rf sdk/{dist,docs}"
+  },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "2.29.0"
   }
