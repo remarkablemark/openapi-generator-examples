@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "generate": "npx @hey-api/openapi-ts -i ../openapi.yaml -o sdk/src",
+    "clean": "rm -rf sdk"
+  },
   "devDependencies": {
     "@hey-api/openapi-ts": "0.92.4"
   }
