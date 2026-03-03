@@ -5,6 +5,6 @@
     "clean": "rm -rf sdk/{dist,docs}"
   },
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "2.30.0"
+    "@openapitools/openapi-generator-cli": "2.30.1"
   }
 }
