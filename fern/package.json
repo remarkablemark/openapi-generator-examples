@@ -6,7 +6,7 @@
     "clean": "rm -rf sdks/typescript/dist"
   },
   "devDependencies": {
-    "fern-api": "4.1.1",
+    "fern-api": "4.3.3",
     "@types/node": "25.3.3",
     "typescript": "5.9.3"
   }
