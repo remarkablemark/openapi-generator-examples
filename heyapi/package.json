@@ -5,7 +5,7 @@
     "clean": "rm -rf sdk/dist"
   },
   "devDependencies": {
-    "@hey-api/openapi-ts": "0.92.4",
+    "@hey-api/openapi-ts": "0.94.0",
     "typescript": "5.9.3"
   }
 }
